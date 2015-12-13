@@ -1,0 +1,22 @@
+{
+  "name": "node-express4",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Prasath Soosaithasan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/soosap/express-mills",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
