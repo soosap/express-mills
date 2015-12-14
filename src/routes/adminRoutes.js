@@ -5,12 +5,14 @@ var mongodb = require('mongodb').MongoClient;
 var books = [
     {
         title: 'Sapiras\' Return',
+        bookId: 656,
         genre: 'Fiction',
         author: 'Prasath Soosaithasan',
         read: false
     },
     {
         title: 'Dugorim\'s Revenge',
+        bookId: 24280,
         genre: 'Fiction',
         author: 'Prasath Soosaithasan',
         read: false
@@ -33,9 +35,6 @@ var router = function (nav) {
         });
 
     return adminRouter;
-
 };
 
 module.exports = router;
-
-

@@ -36,7 +36,7 @@ var router = function () {
 
     authRouter.route('/profile')
         .all(function (req, res, next) {
-            if(!req.user) {
+            if (!req.user) {
                 res.redirect('/');
             }
             next();
@@ -49,5 +49,3 @@ var router = function () {
 };
 
 module.exports = router;
-
-
