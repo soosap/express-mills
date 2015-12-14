@@ -4,6 +4,14 @@ var mongodb = require('mongodb').MongoClient;
 var objectId = require('mongodb').ObjectID;
 
 var router = function (nav) {
+    // Overarching middleware applying to all book routes
+    bookRouter.use(function (req, res, next) {
+        if(!req.user) {
+            res.redirect('/');
+        }
+        next();
+    });
+
     bookRouter.route('/')
         .get(function (req, res) {
             var url = 'mongodb://localhost:27017/libraryApp';
