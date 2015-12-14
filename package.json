@@ -10,7 +10,10 @@
   "author": "Prasath Soosaithasan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "jade": "^1.11.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

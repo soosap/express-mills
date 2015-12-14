@@ -55,7 +55,7 @@ gulp.task('inject', function () {
      |--------------------------------------------------------------------------
      |
      | Whereas wiredep handles injecting external third party libraries into
-     | index.html we use gulp-inject to help us inject our project-specific
+     | index.ejs we use gulp-inject to help us inject our project-specific
      | js and css files.
      |
      | Typically gulp.src() would read the content of all files that we provide
