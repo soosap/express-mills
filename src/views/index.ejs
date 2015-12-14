@@ -49,8 +49,8 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-          <% for(var i=0; i<list.length; i++) { %>
-            <li><a href=""><%=list[i]%></a></li>
+          <% for(var i=0; i<nav.length; i++) { %>
+            <li><a href="<%=nav[i].link%>"><%=nav[i].text%></a></li>
           <% } %>
       </ul>
       <ul class="nav navbar-right navbar-nav">
